@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.0",
+        "animate.css": "^3.7.0",
         "bootstrap": "4.2.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1"

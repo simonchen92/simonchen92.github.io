@@ -8,42 +8,93 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
-  .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
+  font-size: 50px;
+  .inline {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding-top: 200px;
+    // padding-bottom: 100px;
+    .scroller span {
+      // font-size: 22px;
+      // // font-style: italic;
+      // line-height: 22px;
+      // margin-bottom: 25px;
+      // @include serif-font;
+      position: absolute;
+      animation: scrollanimation 10s linear infinite 0s;
+      opacity: 0;
     }
-    .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
+    .scroller .scroll-1 {
+      @include heading-font;
+    }
+    .scroller .scroll-2 {
+      animation-delay: 5s;
+      @include heading-font;
+    }
+    .scroller .scroll-3 {
+      animation-delay: 5s;
       @include heading-font;
     }
   }
 }
+
+@keyframes scrollanimation {
+  0% {
+    opacity: 0;
+  }
+  6% {
+    opacity: 0;
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  29% {
+    opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media(min-width:768px) {
   header.masthead {
-    .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
-      .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
+    .inline {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-content: center;
+      padding-top: 200px;
+      .scroller span {
+        position: absolute;
+        animation: scrollanimation 7.5s linear infinite 0s;
+        opacity: 0;
       }
-      .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
+      .scroller .scroll-1 {
+        text-align: center;
+        @include heading-font;
+      }
+      .scroller .scroll-2 {
+        animation-delay: 2.5s;
+        @include heading-font;
+      }
+      .scroller .scroll-3 {
+        animation-delay: 5s;
         @include heading-font;
       }
     }

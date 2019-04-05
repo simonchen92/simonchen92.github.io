@@ -173,6 +173,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
+  width: 100%;
   font-size: 50px;
 }
 
@@ -191,8 +192,8 @@ header.masthead .inline {
 
 header.masthead .inline .scroller span {
   position: absolute;
-  -webkit-animation: scrollanimation 10s linear infinite 0s;
-  animation: scrollanimation 10s linear infinite 0s;
+  -webkit-animation: scrollanimation 7.5s linear infinite 0s;
+  animation: scrollanimation 7.5s linear infinite 0s;
   opacity: 0;
 }
 
@@ -201,8 +202,8 @@ header.masthead .inline .scroller .scroll-1 {
 }
 
 header.masthead .inline .scroller .scroll-2 {
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 

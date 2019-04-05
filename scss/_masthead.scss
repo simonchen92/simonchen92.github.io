@@ -8,6 +8,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
+  width: 100%;
   font-size: 50px;
   .inline {
     display: flex;
@@ -17,14 +18,14 @@ header.masthead {
     padding-top: 200px;
     .scroller span {
       position: absolute;
-      animation: scrollanimation 10s linear infinite 0s;
+      animation: scrollanimation 7.5s linear infinite 0s;
       opacity: 0;
     }
     .scroller .scroll-1 {
       @include heading-font;
     }
     .scroller .scroll-2 {
-      animation-delay: 5s;
+      animation-delay: 2.5s;
       @include heading-font;
     }
     .scroller .scroll-3 {

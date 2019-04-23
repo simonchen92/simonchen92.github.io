@@ -418,7 +418,8 @@ header.masthead .inline .scroller .scroll-3 {
 }
 
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -476,6 +477,16 @@ header.masthead .inline .scroller .scroll-3 {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.tech-tags {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fed136;
+  display: inline-block;
+  font-weight: 500;
+  padding: 5px;
+  margin: 5px;
 }
 
 .timeline {

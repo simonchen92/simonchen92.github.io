@@ -316,6 +316,19 @@ header.masthead .inline .scroller .scroll-3 {
   }
 }
 
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.row {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;

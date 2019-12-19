@@ -9,6 +9,11 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      img {
+        height: 18vh;
+        width: auto;
+        overflow: hidden;
+      }
       .portfolio-hover {
         position: absolute;
         width: 100%;

@@ -496,11 +496,34 @@ header.masthead .inline .scroller .scroll-3 {
 .tech-tags {
   background-color: #000;
   border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   color: #fed136;
   display: inline-block;
   font-weight: 500;
   padding: 5px;
   margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-tags::after {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tech-tags:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+.tech-tags:hover::after {
+  opacity: 1;
 }
 
 #about {

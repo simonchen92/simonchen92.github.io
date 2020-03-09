@@ -152,9 +152,27 @@
 .tech-tags {
   background-color: $black;
   border: 1px solid $black;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   color: $primary;
   display: inline-block;
   font-weight: 500;
   padding: 5px;
   margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-tags::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tech-tags:hover {
+  transform: scale(1.10, 1.10);
+  cursor: pointer;
+}
+
+.tech-tags:hover::after {
+  opacity: 1;
 }

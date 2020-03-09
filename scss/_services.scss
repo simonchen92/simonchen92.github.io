@@ -10,3 +10,51 @@
   padding: 1rem;
   justify-content: center;
 }
+
+// Animated hover effect on Technologies
+.technology {
+  font-size: 128px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.technology::after {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.technology:hover {
+  transform: scale(1.10, 1.10);
+  cursor: pointer;
+  .tooltiptext {
+    font-size: 1.25rem;
+    visibility: visible;
+  }
+}
+
+.technology:hover::after {
+  opacity: 1;
+}
+
+// Creation of tooltip
+.tooltiptext {
+  visibility: hidden;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  color: grey;
+  border-radius: 6px;
+  padding: 15px 0;
+  @include serif-font;
+}
+
+// .tooltiptext::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 100%;
+//   left: 50%;
+//   margin-left: -5px;
+//   border-width: 5px;
+//   border-style: solid;
+//   border-color: transparent transparent black transparent;
+// }

@@ -321,6 +321,10 @@ header.masthead .inline .scroller .scroll-3 {
   text-transform: none;
 }
 
+i {
+  padding: 1rem;
+}
+
 .row {
   margin-bottom: 2rem;
   padding: 1rem;

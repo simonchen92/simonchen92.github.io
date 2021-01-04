@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -415,13 +415,9 @@ i {
   top: 50%;
   width: 100%;
   height: 20px;
-  margin-top: -12px;
+  margin-top: -45px;
   text-align: center;
   color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,

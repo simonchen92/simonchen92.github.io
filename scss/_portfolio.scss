@@ -72,6 +72,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .portfolio-modal .modal-content h2 {
+    font-size: 2em !important;
+  }
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
   .modal-dialog {

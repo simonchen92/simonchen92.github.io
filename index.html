@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
   <!-- Devicon -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
@@ -98,6 +98,23 @@
       </div>
       <div class="row">
 
+        <!-- Budget Pad -->
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+              <img class="img-fluid" src="img/Budget-Pad.png" alt="Budget Pad Project Photo">
+          </a>
+            <div class="portfolio-caption">
+              <h4>Budget Pad</h4>
+              <p class="text-muted">A simple front end budget tracking application where you can calculate your total spending</p>
+            </div>
+          </div>
+
+
         <!-- ImageScape -->
         <div class="col-md-3 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
@@ -138,7 +155,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-              <img class="img-fluid" src="img/Coming-Soon.jpg" alt="coming soon">
+              <img class="img-fluid" src="img/Binge.png" alt="coming soon">
           </a>
             <div class="portfolio-caption">
               <h4>Binge</h4>
@@ -290,6 +307,11 @@
           <span class="tooltiptext">JavaScript</span>
         </i>
       </span>
+      <span>
+        <i class="technology devicon-typescript-plain colored">
+          <span class="tooltiptext">TypeScript</span>
+        </i>
+      </span>
       <span style="color: #0769ad;">
         <i class="technology devicon-jquery-plain-wordmark colored">
           <span class="tooltiptext">jQuery</span>
@@ -298,6 +320,16 @@
       <span style="color: #61dafb;">
         <i class="technology devicon-react-original-wordmark colored">
           <span class="tooltiptext">React</span>
+        </i>
+      </span>
+      <span>
+        <i class="technology devicon-angularjs-plain colored">
+        <span class="tooltiptext">Angular</span>
+        </i>
+      </span>
+      <span style="color: green">
+        <i class="technology devicon-bulma-plain colored">
+        <span class="tooltiptext">Bulma</span>
         </i>
       </span>
       <span>
@@ -502,6 +534,48 @@
 
   <!-- Portfolio Modals -->
 
+    <!-- Budget Pad -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Budget Pad</h2>
+                  <img class="img-fluid d-block mx-auto" src="img/Budget-Pad.png" alt="Budget Pad Project Photo">
+                  <span class="tech-tags">Angular</span>
+                  <span class="tech-tags">Angular Material</span>
+                  <span class="tech-tags">TypeScript</span>
+                  <span class="tech-tags">SASS</span>
+                  <span class="tech-tags">Bulma</span>
+                  <span class="tech-tags">HTML</span>
+                  <p> A simple and quick front end application where you can keep track of your total spending. You can create, edit, and delete the item and it will dynamically adjust the total.
+                  </p>
+                  <ul class="list-inline">
+                    <li>Live Website:
+                      <a href="https://budget-pad.netlify.app/" target="_blank">Website</a>
+                    </li>
+                    <li>GitHub Repo:
+                      <a href="https://github.com/simonchen92/budget-pad" target="_blank">GitHub</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- ImageScape -->
     <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -517,7 +591,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">ImageScape</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/ImageScape.png" alt="image scape project enlarged photo">
+                  <img class="img-fluid d-block mx-auto" src="img/ImageScape.png" alt="Image Scape Project Photo">
                   <span class="tech-tags">React</span>
                   <span class="tech-tags">React Hooks</span>
                   <span class="tech-tags">JavaScript</span>
@@ -611,7 +685,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Binge</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/Coming-Soon.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/Binge.png" alt="Binge Project Photo">
                   <span class="tech-tags">React</span>
                   <span class="tech-tags">SCSS/SASS</span>
                   <span class="tech-tags">JavaScript</span>
@@ -658,7 +732,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Chatter Box</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/ChatterBox.png" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/ChatterBox.png" alt="Chatter Box Project Photo">
                   <span class="tech-tags">React</span>
                   <span class="tech-tags">MaterialUI</span>
                   <span class="tech-tags">JavaScript</span>
@@ -704,7 +778,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Hooked On Movies</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/Hooked-On-Movies.png" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/Hooked-On-Movies.png" alt="Hooked On Movies Project Photo">
                   <span class="tech-tags">HTML</span>
                   <span class="tech-tags">SCSS/SASS</span>
                   <span class="tech-tags">JavaScript</span>
@@ -747,7 +821,7 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Sipping Beauty</h2>
-                <img class="img-fluid d-block mx-auto" src="img/Sipping-Beauty-Screenshot.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/Sipping-Beauty-Screenshot.png" alt="Sipping Beauty Project Photo">
                 <span class="tech-tags">HTML</span>
                 <span class="tech-tags">SCSS/SASS</span>
                 <span class="tech-tags">JavaScript</span>
@@ -797,7 +871,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Food Swings</h2>
-                  <img class="img-fluid d-block mx-auto" src="https://i.imgur.com/vYqNMIW.png" alt="">
+                  <img class="img-fluid d-block mx-auto" src="https://i.imgur.com/vYqNMIW.png" alt="Food Swings Project Photo">
                   <span class="tech-tags">React</span>
                   <span class="tech-tags">axios</span>
                   <span class="tech-tags">Bootstrap</span>
@@ -845,7 +919,7 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Survey Express</h2>
-                <img class="img-fluid d-block mx-auto" src="img/SurveyExpressFull.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/SurveyExpressFull.png" alt="Survey Express Project Photo">
                 <span class="tech-tags">HTML</span>
                 <span class="tech-tags">CSS/SCSS</span>
                 <span class="tech-tags">JavaScript</span>
@@ -895,7 +969,7 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Driving Me Bananas</h2>
-                <img class="img-fluid d-block mx-auto" src="img/DrivingMeBananasFull.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/DrivingMeBananasFull.png" alt="Driving Me Bananas Project Photo">
                 <span class="tech-tags">HTML</span>
                 <span class="tech-tags">SCSS/SASS</span>
                 <span class="tech-tags">JavaScript</span>
@@ -944,7 +1018,7 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Tic-Tac-Toe Game</h2>
-                <img class="img-fluid d-block mx-auto" src="img/TicTacToeFull.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/TicTacToeFull.png" alt="Tic Tac Toe Project Photo">
                 <span class="tech-tags">HTML</span>
                 <span class="tech-tags">SCSS/SASS</span>
                 <span class="tech-tags">JavaScript</span>
